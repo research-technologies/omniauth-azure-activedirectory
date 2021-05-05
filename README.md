@@ -42,7 +42,7 @@ For example, in Rails you would add this in `config/initializers/omniauth.rb`:
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :azure_activedirectory, ENV['AAD_CLIENT_ID'], ENV['AAD_TENANT']
+  provider :azureactivedirectory, ENV['AAD_CLIENT_ID'], ENV['AAD_TENANT']
   # other providers here
 end
 ```
@@ -51,7 +51,7 @@ If you are using Sinatra or something else that requires you to configure Rack y
 
 ```ruby
 use OmniAuth::Builder do
-  provider :azure_activedirectory, ENV['AAD_CLIENT_ID'], ENV['AAD_TENANT']
+  provider :azureactivedirectory, ENV['AAD_CLIENT_ID'], ENV['AAD_TENANT']
 end
 ```
 
