@@ -1,5 +1,5 @@
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
-require 'omniauth/azureactivedirectory/version'
+require 'omniauth/azure_activedirectory/version'
 
 Gem::Specification.new do |s|
   s.name            = 'omniauth-azure-activedirectory'
