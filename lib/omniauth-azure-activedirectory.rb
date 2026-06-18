@@ -20,4 +20,4 @@
 # THE SOFTWARE.
 #-------------------------------------------------------------------------------
 
-require 'omniauth/azureactivedirectory'
+require 'omniauth/azure_activedirectory'
